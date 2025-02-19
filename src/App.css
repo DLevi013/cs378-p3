@@ -1,0 +1,99 @@
+/* 
+  Style your elements by creating CSS classes here.
+  Below, you can see an example of a class called "menu" that changes the color of the text to blue. Modify according to your needs.
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+.houseLogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 300px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  color: purple;
+}
+
+
+h2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.itemName {
+  color: rgb(88, 5, 5);
+  font-weight: 700;
+
+}
+
+.title{
+  color:darksalmon;
+  text-align: center;
+}
+
+
+.itemrow{
+  display: flex;
+}
+
+.menuImg{
+  flex-shrink: 0;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+.details{
+  padding-bottom: 20px;
+  flex-grow: 1;
+}
+
+
+.priceandbutton{
+  display: flex;
+  padding-top: 15px;
+}
+
+.price{
+  font-weight: 700;
+  flex-grow: .79;
+}
+
+.addbutton{
+  border-radius: 8px;
+  background-color: rgb(255, 226, 150);
+  border: none;
+  height: 25px;
+  width: 50px;
+  margin-left: 20px;
+  
+}
+
+.quantity{
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.clearAllOrder {
+  border-radius: 8px;
+  background-color: rgb(255, 226, 150);
+  border: none;
+  height: 35px;
+  width: 100px;
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-top: 20px; 
+}
+
